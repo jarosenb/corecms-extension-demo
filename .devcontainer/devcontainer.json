@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.231.6/containers/elixir
+{
+	"image": "taccwma/core-cms:latest",
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python"
+	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [8000],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "mix deps.get"
+
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	//"remoteUser": "vscode"
+}
